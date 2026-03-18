@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    </head>
+    <body>
+         <!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#plakats" onclick="w3_close()" class="w3-bar-item w3-button">Plakāts</a>
+  <a href="#excel" onclick="w3_close()" class="w3-bar-item w3-button">Excel</a>
+  <a href="#word" onclick="w3_close()" class="w3-bar-item w3-button">Word</a>
+  <a href="#vek" onclick="w3_close()" class="w3-bar-item w3-button">Vektorgrafika</a>
+  <a href="#rakst" onclick="w3_close()" class="w3-bar-item w3-button">Rakstgrafika</a>
+  <a href="index.html">Portfolio</a>
+</nav>
+        <!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16" a href="html2.html">Portfolio</div>
+    <div class="w3-center w3-padding-16">Datu aizsardzība</div>
+  </div>
+</div>
+    <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+</div>
+     <div class="w3-container w3-center w3-padding-16" id="start">
+   
+     
+      <h2>Datu drošība</h2>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+ 
+     </div>
+  <div id="rakst"></div>
+        
+            <div  class="w3-container w3-center w3-padding-16 w3-xlarge" style="max-width:1200px;margin-top:100px" id="bverb">
+               
+                <h3>Kādēļ tā ir vajadzīga?</h3>
+            </div>
+               <div  class="w3-container w3-center w3-padding-16 w3-xlarge" style="max-width:1200px;margin-top:100px" id="bvrfeb">
+            <div id="plakats"></div>
+                    <img src="images/Datu.jpg" alt="inform bilde" style="width: 700px; height: 900px">
+                    </div>
+                    <div class="w3-container w3-center w3-padding-16 w3-xlarge" style="max-width:200px;margin-top:100px" id="herh">
+                         <div id="vek"></div>
+        
+    </body>
+    <script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</html>
