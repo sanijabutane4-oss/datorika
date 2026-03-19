@@ -1,0 +1,28 @@
+
+body {
+  background-image: url("../images/bilde.jpg");
+}
+
+p {
+  color: darkslateblue;
+  font-size: 20px;
+  font-weight: bold
+}
+
+h2 {
+    font-size: 40px
+}
+h3 {
+    font-size: 30px
+    
+}
+li {
+    font-size: 17px;
+     font-weight: bold
+}
+/* 
+
+    Created on : Mar 19, 2026, 4:40:58 PM
+    Author     : sbutane4
+*/
+
